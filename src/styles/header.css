@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    background: url('../images/bgdark.jpg') center/cover no-repeat;
+    height:45vh;
+    position: relative;
+}
+
+#input{
+    background-color: hsl(235, 24%, 19%);
+    border: 0;
+    padding: 7px 20px;
+    width:100%;
+    color:white;
+    font-size: 1.3rem;
+}
+
+.form{
+    width:60%;
+    display: flex;
+    position: absolute;
+    padding: 5px;
+    top:47%;
+    left:20%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(235, 24%, 19%);
+    border-radius: 10px;
+}
+
+form{
+    padding:10px;
+    width:93%;   
+    color:white;
+    font-size: 1.3rem;
+}
+
+.circle--container{
+    width:35px;
+    height: 35px;
+    border: solid 1px gray;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.output--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    /* background-color: hsl(235, 24%, 19%); */
+}
+
+.output{
+    display: flex;
+    font-size: 1.7rem;
+    color:white;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border-bottom: solid 1px gray;
+    padding:10px;
+}
+
+.dark{
+    background: url('../images/bglight.jpg') center/cover no-repeat;
+}
+
+.inner--container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background:  hsl(235, 24%, 19%);
+    border-radius: 10px;
+    position: absolute;
+    top:-15%;
+}
+
+.goal--field{
+    width: 93%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.heading{
+    display:flex;
+    font-size:1.6rem;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top:30%;
+    color: white;
+    padding: 0 10px;
+    left:20%;
+    width:60%;
+}
+#image{
+    height:40px;
+    cursor: pointer;
+}
